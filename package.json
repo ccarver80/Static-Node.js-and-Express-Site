@@ -1,0 +1,19 @@
+{
+  "name": "static-node.js-and-express-site",
+  "version": "1.0.0",
+  "description": "Create a static site using Node.js and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccarver80/Static-Node.js-and-Express-Site.git"
+  },
+  "author": "Chris Carver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccarver80/Static-Node.js-and-Express-Site/issues"
+  },
+  "homepage": "https://github.com/ccarver80/Static-Node.js-and-Express-Site#readme"
+}
