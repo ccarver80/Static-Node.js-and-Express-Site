@@ -4,7 +4,7 @@
         "id": 0,
         "project name": "" ,
         "description": "", 
-        "technologies": [], // array of strings 
+        "technologies": [],
         "live_link":  "",
         "github_link": "",
         "image_url": [] 
