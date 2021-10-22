@@ -1,0 +1,64 @@
+{
+"projects": [
+    {
+        "id": 0,
+        "project_name": "Random Quote Generator" ,       //Marie! here is some markup im trying to add to my json file to show in my .pug file
+        "description": //"<h1>My very first Team Treehouse Tech degree project!</h1> <br> "After learning the basics of JS, and DOM manipulation I built a quote generator to loop thru a object array randomly. For bonus points I added a timer and built a random background color generator", 
+        "technologies": ["JavaScript", "DOM Manipulation"],
+        "live_link":  "https://ccarver80.github.io/Random-Quote-Generator-TT-1/",
+        "github_link": "https://github.com/ccarver80/Random-Quote-Generator-TT-1",
+        "image_url": ["/static/img/project1-1.png"] 
+    },
+
+    {
+        "id": 1,
+        "project_name": "Data Pagination and Filtering" ,
+        "description": "Tech Degree Project #2: Using a common web development technique called \"pagination\" I used a JS file containing 42 random students and looped thru and displayed 9 per page. I also added Javascript to include pageination buttons on the bottom that the user can click on", 
+        "technologies": ["JavaScript", "DOM Manipulation"],
+        "live_link":  "https://ccarver80.github.io/Data-Pagination-and-Filtering-TT-2/",
+        "github_link": "https://github.com/ccarver80/Data-Pagination-and-Filtering-TT-2",
+        "image_url": ["/static/img/project2-1.png"] 
+    },
+
+    {
+        "id": 2,
+        "project_name": "Interactive Form" ,
+        "description": "Tech Degree Project #3: Using a prebuilt HTML/CSS form my assignment was to add functionallity to it using JavaScript. I made the form more user freindly when selecting options like \"t-shirt design\" only the selected design colors appear in the color dropdown menu. I also used Javascript to make the \"re ", 
+        "technologies": ["HTML", "CSS", "JS", "test3"],
+        "live_link":  "www.live3",
+        "github_link": "www.github3",
+        "image_url": ["SDJFLKSDJF"] 
+    },
+    
+    {
+        "id": 3,
+        "project_name": "Test 3 Name" ,
+        "description": "asdf", 
+        "technologies": ["HTML", "CSS", "JS", "test3"],
+        "live_link":  "www.live3",
+        "github_link": "www.github3",
+        "image_url": ["SDJFLKSDJF"] 
+    },
+
+    {
+        "id": 4,
+        "project_name": "Test 3 Name" ,
+        "description": "asdf", 
+        "technologies": ["HTML", "CSS", "JS", "test3"],
+        "live_link":  "www.live3",
+        "github_link": "www.github3",
+        "image_url": ["SDJFLKSDJF"] 
+    },
+
+    {
+        "id": 5,
+        "project_name": "Test 3 Name" ,
+        "description": "asdf", 
+        "technologies": ["HTML", "CSS", "JS", "test3"],
+        "live_link":  "www.live3",
+        "github_link": "www.github3",
+        "image_url": ["SDJFLKSDJF"] 
+    }
+
+]
+}
