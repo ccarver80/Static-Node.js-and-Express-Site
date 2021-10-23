@@ -1,64 +1,68 @@
 {
 "projects": [
+ 
+      
     {
-        "id": 0,
-        "project_name": "Random Quote Generator" ,       //Marie! here is some markup im trying to add to my json file to show in my .pug file
-        "description": //"<h1>My very first Team Treehouse Tech degree project!</h1> <br> "After learning the basics of JS, and DOM manipulation I built a quote generator to loop thru a object array randomly. For bonus points I added a timer and built a random background color generator", 
-        "technologies": ["JavaScript", "DOM Manipulation"],
-        "live_link":  "https://ccarver80.github.io/Random-Quote-Generator-TT-1/",
-        "github_link": "https://github.com/ccarver80/Random-Quote-Generator-TT-1",
-        "image_url": ["/static/img/project1-1.png"] 
+        "id": 5,
+        "project_name": "Static Node.js and Express Site" ,
+        "description": "<h3>Tech Degree Project #6:</h3> This website that you currently are on is it! This is a static porfolio website using Express and Node.js. In this project I learned how to start a Express project, spin up a web server, and create routes and build templates using Pug.", 
+        "technologies": ["Pug", "JavaScript", "Node.js", "Express"],
+        "live_link":  "/",
+        "github_link": "https://github.com/ccarver80/Static-Node.js-and-Express-Site",
+        "image_url": ["/static/img/project6-1.png", "/static/img/project6-2.png"] 
+    },
+
+    {
+        "id": 4,
+        "project_name": "Public API Requests" ,
+        "description": "<h3>Tech Degree Project #5:</h3> Using Fetch API to use Random User Generator API (https://randomuser.me/) to grab information for 12 random “employees,” and use that data to build a prototype for an Awesome Startup employee directory.<br> <br> I was to create a JS file and add link it in the HTML. My job was to use a 'GET' API request to get 12 random employess from the \"randomuser.me\" website. I was also assigned to build a \"Modal\" profile when a indvidual profile is clicked.", 
+        "technologies": ["JavaScript", "API", "FETCH", "DOM Manipulation"],
+        "live_link":  "https://ccarver80.github.io/Public-API-Requests/",
+        "github_link": "https://github.com/ccarver80/Public-API-Requests",
+        "image_url": ["/static/img/project5-1.png", "/static/img/project5-2.png"] 
+    },
+
+    {
+        "id": 3,
+        "project_name": "OOP Game Show App" ,
+        "description": "<h3>Tech Degree Project #4:</h3> Using OOP and Javascript, I built a game similar to \"Hangman\". In this project I learned about OOP, building Classes and calling methods from those classes.", 
+        "technologies": ["Javascript", "OOP"],
+        "live_link":  "https://ccarver80.github.io/OOP-Game-Show-App/",
+        "github_link": "https://github.com/ccarver80/OOP-Game-Show-App",
+        "image_url": ["/static/img/project4-1.png", "/static/img/project4-3.png", "/static/img/project4-2.png"] 
+    },
+
+    {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "<h3>Tech Degree Project #3:</h3> Using a prebuilt HTML/CSS form my assignment was to add functionallity to it using JavaScript. I made the form more user freindly when selecting options like \"t-shirt design\" only the selected design colors appear in the color dropdown menu. I also used Javascript to make the \"Register for Activities\" functional and user freindly. When a class is clicked on, if there is another class that has a conflicting time and day it is disabled. Finally I used Regex or Regular expressions to validate the form and payment section ", 
+        "technologies": ["HTML", "CSS", "JavaScript", "DOM Manipulation", "Regex" ],
+        "live_link":  "https://ccarver80.github.io/Interactive-Form-TT-3/",
+        "github_link": "https://github.com/ccarver80/Interactive-Form-TT-3",
+        "image_url": ["/static/img/project3-1.png", "/static/img/project3-3.png", "/static/img/project3-2.png"] 
     },
 
     {
         "id": 1,
         "project_name": "Data Pagination and Filtering" ,
-        "description": "Tech Degree Project #2: Using a common web development technique called \"pagination\" I used a JS file containing 42 random students and looped thru and displayed 9 per page. I also added Javascript to include pageination buttons on the bottom that the user can click on", 
+        "description": "<h3>Tech Degree Project #2:</h3> Using a common web development technique called \"pagination\" I used a JS file containing 42 random students and looped thru and displayed 9 per page. I also added Javascript to include pageination buttons on the bottom that the user can click on", 
         "technologies": ["JavaScript", "DOM Manipulation"],
         "live_link":  "https://ccarver80.github.io/Data-Pagination-and-Filtering-TT-2/",
         "github_link": "https://github.com/ccarver80/Data-Pagination-and-Filtering-TT-2",
-        "image_url": ["/static/img/project2-1.png"] 
+        "image_url": ["/static/img/project2-1.png", "/static/img/project2-2.png"] 
     },
 
     {
-        "id": 2,
-        "project_name": "Interactive Form" ,
-        "description": "Tech Degree Project #3: Using a prebuilt HTML/CSS form my assignment was to add functionallity to it using JavaScript. I made the form more user freindly when selecting options like \"t-shirt design\" only the selected design colors appear in the color dropdown menu. I also used Javascript to make the \"re ", 
-        "technologies": ["HTML", "CSS", "JS", "test3"],
-        "live_link":  "www.live3",
-        "github_link": "www.github3",
-        "image_url": ["SDJFLKSDJF"] 
-    },
-    
-    {
-        "id": 3,
-        "project_name": "Test 3 Name" ,
-        "description": "asdf", 
-        "technologies": ["HTML", "CSS", "JS", "test3"],
-        "live_link":  "www.live3",
-        "github_link": "www.github3",
-        "image_url": ["SDJFLKSDJF"] 
-    },
-
-    {
-        "id": 4,
-        "project_name": "Test 3 Name" ,
-        "description": "asdf", 
-        "technologies": ["HTML", "CSS", "JS", "test3"],
-        "live_link":  "www.live3",
-        "github_link": "www.github3",
-        "image_url": ["SDJFLKSDJF"] 
-    },
-
-    {
-        "id": 5,
-        "project_name": "Test 3 Name" ,
-        "description": "asdf", 
-        "technologies": ["HTML", "CSS", "JS", "test3"],
-        "live_link":  "www.live3",
-        "github_link": "www.github3",
-        "image_url": ["SDJFLKSDJF"] 
+        "id": 0,
+        "project_name": "Random Quote Generator" ,
+        "description": "<h3>My very first Team Treehouse Tech degree project!</h3> After learning the basics of JS, and DOM manipulation I built a quote generator to loop thru a object array randomly. For bonus points I added a timer and built a random background color generator", 
+        "technologies": ["JavaScript", "DOM Manipulation"],
+        "live_link":  "https://ccarver80.github.io/Random-Quote-Generator-TT-1/",
+        "github_link": "https://github.com/ccarver80/Random-Quote-Generator-TT-1",
+        "image_url": ["/static/img/project1-1.png", "/static/img/project1-2.png"] 
     }
+
+   
 
 ]
 }

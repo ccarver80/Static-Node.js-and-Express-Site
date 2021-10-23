@@ -4,31 +4,21 @@ block content
 
   article.portfolio-intro
 
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
+    
     h1 Full Stack JavaScript Developer
 
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    
+    p These are my portfolio projects starting from most recent.
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
       each val in data.projects
         .cell
-          a(href= `project/${val.id}`)
-            each val2 in val.image_url
-              img.thumbnail(src= val2, alt='')
+          //- Taking projects.length and subtracting the val.id - 1 makes it so I can list my projects in reverse order. 
+          a(href= `project/${(data.projects.length - val.id) - 1}`)
+              img.thumbnail(src= val.image_url[0], alt='')
               h5= val.project_name
 
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
-      
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
 
-        .cell
-          a(href='#')
-            img.thumbnail(src='https://placehold.it/550x550', alt='')
-            h5 My Site
 
